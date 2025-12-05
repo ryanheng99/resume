@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV - Ryan Heng</title>
+  <style>
+    
+    @page {
+      size: A4;
+      margin: 4mm 9mm; 
+    }
+
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0px;
+      background-color: #f4f4f4;
+      color: #333;
+      font-size: 11px;
+    }
+    .container {
+      width: 100%;
+      max-width: 100%;
+      margin: 0;
+      background: #fff;
+      padding: 8px;
+      box-shadow: none;
+    }
+    h1 {font-size: 16px;} h2 {font-size: 14px;
+      color: #005a9c;
+    }
+    h3 {
+      font-size: 12px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 2px;
+      margin-bottom: 2px;
+      color: #005a9c;
+    }
+    .section {
+      margin-bottom: 7px;
+      font-size: 11.5px;
+    }
+    .contact-info p {
+      margin: 5px 0;
+    }
+    ul {
+      padding-left: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Ryan Heng</h1>
+    <h2>Data Science Engineer</h2>
+
+    <div class="section contact-info">
+      <p>ryanheng99@gmail.com | +65 9696 9890 | Singapore</p>
+      <p><a href="https://www.linkedin.com/in/ryan-heng-bc/">linkedin.com/in/ryan-heng-bc/</a> | <a href="https://github.com/ryanheng99">github.com/ryanheng99</a></p>
+      <p></p>
+    </div>
+
+    <div class="section">
+      <h3>Professional Summary</h3>
+      <p>Data Science Engineer with experience building production data pipelines for high-frequency data systems and real-time analytics.
+        Proven ability to design and deploy ETL infrastructure for cryptocurrency market data, financial time-series, and trading systems. 
+        Skilled in Python, SQL, Apache Airflow, and Docker with hands-on experience processing tick-level data streams, implementing low-latency pipelines, and building data infrastructure that enables quantitative analysis and algorithmic trading.
+        trong foundation in both data engineering and quantitative methods (time-series analysis, statistical modeling) with C++ experience in trading systems.
+      </p>
+    </div>
+
+    
+
+    <div class="section">
+      <h3>Work Experience</h3>
+      <ul>
+        <li><strong>Data Science Engineer Intern</strong> - Sanofi Manufacturing, Singapore<br> May 2025 - Apr 2026, (1 Year Contract) 
+          <ul>
+            <li>Designed and deployed ETL pipelines processing high-frequency manufacturing data (1,000+ data points/hour), demonstrating capability to handle market tick-level data volumes</li>
+            <li>Built modular data warehouse with version control and comprehensive testing, enabling time-series analysis and quantitative modeling on historical process data</li>
+            <li>Developed real-time monitoring pipeline for data quality and anomaly detection, methodology directly applicable to market surveillance and trading signal validation</li>
+            <li>Implemented automated data workflows with dependency management and error handling, ensuring data integrity for downstream quantitative analysis</li>
+            <li>Led data architecture design defining data flows and storage patterns optimized for time-series queries and analytics</li>
+        </ul>
+        <br>
+        <li><strong>Data Engineering Intern</strong> - Power Hydraulics, Singapore <br> Mar 2023 - Aug 2023 (6 Mths Contract)
+            <ul>
+                <li>Built real-time data pipelines processing high-frequency sensor data (1,000+ readings/second), comparable to market tick data volumes in active trading</li>
+                <li>Designed low-latency data ingestion from industrial systems, reducing processing latency from 30 seconds to under 5 seconds through stream processing optimization</li>
+                <li>Developed Python automation scripts for time-series data analysis and statistical processing</li>
+                <li>Implemented secure APIs with authentication and encrypted data transmission for mission-critical monitoring systems</li>
+            </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Skills</h3>
+      <ul>
+        <li><strong>Data Engineering:</strong> ETL/ELT for Market Data, Apache Airflow, High-Frequency Data Processing,
+  Real-time Stream Processing, Time-Series Data Warehousing, Low-Latency Pipelines,
+  Data Quality & Validation, REST API Development</li>
+        
+        <li><strong>Programming:</strong> Python (Pandas, NumPy), C++, SQL (PostgreSQL, MySQL), Bash</li><br>
+
+        <li><strong>Database & Storage:</strong> PostgreSQL (Time-Series Optimization), SQLite, NoSQL databases</li><br>
+
+        <li><strong>Infrastructure & DevOps:</strong> Docker, CI/CD (GitHub Actions), Git, Linux/Unix</li><br>
+
+        <li><strong>Financial Data:</strong>Market Data APIs (Binance, CoinGecko), Cryptocurrency data, Time-series data modeling, Tick data processing</li><br>
+
+        <li><strong>Quantitative Methods (Supporting DE work):</strong> Time-Series Analysis (ARIMA, SARIMA), Statistical Analysis, Anomaly Detection, Feature Engineering for Trading Signals</li><br>
+        
+        <li><strong>Cloud & Visualization:</strong> AWS (S3), Jupyter, Streamlit, Matplotlib, Plotly</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Awards & Certifications</h3>
+      <ul>
+        <li>Sanofi:
+          <ul>
+        <li>Certification in Advanced knowledge of AWS Console & AWS Services (Oct 2025)</li>
+        <li>Certification in AWS Data Analytics (Nov 2025)</li>
+        <li>Certification in Datalake IA - Cloud Data Engineer Project & Operations (Nov 2025)</li>
+        </li>
+        </ul>
+        <li>Wilmar International Scholar 2023</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Projects</h3>
+      <ul>
+        <li><strong>Production Cryptocurrency Market Data Pipeline</strong> 
+          <ul>
+            <li>Built enterprise-grade ETL pipeline processing 10,000+ daily cryptocurrency data points using Apache Airflow orchestration, time-series optimized PostgreSQL with date/symbol partitioning, and Docker containerization</li>
+            <li>Implemented tick-level data quality validation, gap detection, anomaly detection with Slack alerting, and designed infrastructure supporting quantitative analysis and algorithmic trading backtesting</li>
+            <li><strong>Technologies: Python, Apache Airflow, PostgreSQL, Docker, Binance WebSocket API, Time-Series Optimization</strong></li>
+            <li><strong>GitHub:</strong> <a href=" github.com/ryanheng99/CryptoPipeline_and_PredictiveModeling">  github.com/ryanheng99/CryptoPipeline_and_PredictiveModeling</a></li>
+            
+        </ul>
+        <br>
+        <li><strong>Cryptocurrency Trading System Data Infrastructure</strong> 
+            <ul>
+                <li>Developed C++ data ingestion layer for quantitative trading system handling real-time tick-by-tick market data with microsecond-level timestamp precision and low-latency processing feeding backtesting engine</li>
+                <li><strong>Technologies: C++, Real-time streaming, Exchange WebSocket APIs, Low-latency processing</strong></li>
+                <li><strong>GitHub:</strong> <a href="github.com/ryanheng99/C.Q.Trading_System"> github.com/ryanheng99/C.Q.Trading_System</a></li>
+            </ul>
+        </li>
+        <br>
+        <li><strong>Bitcoin Price Forecasting API Data Pipeline</strong>
+            <ul>
+                <li>Built automated data pipeline with FastAPI serving Bitcoin data from CoinGecko API, featuring data validation, caching, CI/CD deployment via GitHub Actions, and Docker containerization</li>
+                <li><strong>Technologies: Python, FastAPI, Docker, GitHub Actions, CoinGecko API, CI/CD</strong></li>
+                <li><strong>GitHub:</strong> <a href="github.com/ryanheng99/Crypto-Market-Intelligence-Pipeline"> github.com/ryanheng99/Crypto-Market-Intelligence-Pipeline</a></li>
+            </ul>
+        <br>
+        <li><strong>Weather Time-Series Data Pipeline</strong>
+            <ul>
+                <li>Designed ETL pipeline demonstrating time-series processing skills transferable to financial data: incremental loading, quality validation, and optimized schema for time-range queries</li>
+                <li><strong>Technologies: Python, Pandas, SQLite, REST APIs, Time-series modeling</strong></li>
+                <li><strong>GitHub:</strong> <a href="github.com/ryanheng99/Weather-ETL-project"> github.com/ryanheng99/Weather-ETL-project</a></li>
+            </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Education</h3>
+      <ul>
+        <li><strong>BEng Chemical Engineering & Data Engineering with Honours (2nd Upper)</strong> - Singapore Institute of Technology-Technical University of Munich, Singapore (2022-2026)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Languages</h3>
+      <ul>
+        <li>English (Fluent)</li>
+        <li>Mandarin (Professional Proficiency)</li>
+      </ul>
+    </div>
+
+    
+  </div>
+</body>
+</html>
