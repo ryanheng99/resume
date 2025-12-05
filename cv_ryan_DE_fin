@@ -102,15 +102,15 @@
   Real-time Stream Processing, Time-Series Data Warehousing, Low-Latency Pipelines,
   Data Quality & Validation, REST API Development</li>
         
-        <li><strong>Programming:</strong> Python (Pandas, NumPy), C++, SQL (PostgreSQL, MySQL), Bash</li><br>
+        <li><strong>Programming:</strong> Python (Pandas, NumPy), C++, SQL (PostgreSQL, MySQL), Bash</li>
 
-        <li><strong>Database & Storage:</strong> PostgreSQL (Time-Series Optimization), SQLite, NoSQL databases</li><br>
+        <li><strong>Database & Storage:</strong> PostgreSQL (Time-Series Optimization), SQLite, NoSQL databases</li>
 
-        <li><strong>Infrastructure & DevOps:</strong> Docker, CI/CD (GitHub Actions), Git, Linux/Unix</li><br>
+        <li><strong>Infrastructure & DevOps:</strong> Docker, CI/CD (GitHub Actions), Git, Linux/Unix</li>
 
-        <li><strong>Financial Data:</strong>Market Data APIs (Binance, CoinGecko), Cryptocurrency data, Time-series data modeling, Tick data processing</li><br>
+        <li><strong>Financial Data:</strong>Market Data APIs (Binance, CoinGecko), Cryptocurrency data, Time-series data modeling, Tick data processing</li>
 
-        <li><strong>Quantitative Methods (Supporting DE work):</strong> Time-Series Analysis (ARIMA, SARIMA), Statistical Analysis, Anomaly Detection, Feature Engineering for Trading Signals</li><br>
+        <li><strong>Quantitative Methods (Supporting DE work):</strong> Time-Series Analysis (ARIMA, SARIMA), Statistical Analysis, Anomaly Detection, Feature Engineering for Trading Signals</li>
         
         <li><strong>Cloud & Visualization:</strong> AWS (S3), Jupyter, Streamlit, Matplotlib, Plotly</li>
       </ul>
